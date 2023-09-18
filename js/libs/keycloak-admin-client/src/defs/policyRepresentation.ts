@@ -24,6 +24,7 @@ export interface PolicyRoleRepresentation {
 }
 
 export default interface PolicyRepresentation {
+  clients?: string[];
   config?: Record<string, any>;
   decisionStrategy?: DecisionStrategy;
   description?: string;
